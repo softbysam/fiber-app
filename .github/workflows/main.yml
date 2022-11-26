@@ -3,7 +3,7 @@ name: CI-CD-pipeline-AWS
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   my_ci_part:
