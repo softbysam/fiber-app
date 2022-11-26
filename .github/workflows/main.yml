@@ -21,4 +21,4 @@ jobs:
 
     
     - name: Do something
-      uses: softbysam/samact123221@v1
+      uses: softbysam/samact123221@v0.1.0
