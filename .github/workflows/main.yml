@@ -1,1 +1,14 @@
+name: CI-CD-pipeline-AWS
 
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  my_ci_part:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone my repo
+      uses: actions/checkout@v1
