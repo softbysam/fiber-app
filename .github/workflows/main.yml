@@ -21,4 +21,4 @@ jobs:
 
     
     - name: Do something
-      run: echo "hello world"
+      uses: softbysam/samact123221@v1
